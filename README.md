@@ -9,11 +9,17 @@ $ cd <your_project>
 $ git clone https://github.com/RyodoTanaka/cpp_compile.git
 ```
 
-#### 2. cleate a linker
+#### 2. create linkers
 ```bash
 $ cd <your_project>
-$ ln -s compile.bash ./cpp_compile/compile.bash
+$ ln -s ./cpp_compile/compile.bash compile.bash
+$ ln -s ./cpp_compile/.build.bash .build.bash
+$ ln -s ./cpp_compile/.setup.bash .setup.bash
+$ ln -s ./cpp_compile/.images .images
 ```
+
+#### 3. create `CMakeLists.txt`
+Just to create your `CMakeLists.txt`.
 
 ## Usage
 #### 1. Compile
